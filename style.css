@@ -20,7 +20,8 @@ canvas {
     left: 50%;
     transform: translate(-50%, -50%);
     font-family: impact;
-    font-size: 175px;
+    font-size: 100px;
+    font-size: 10vw;
     color: white;
     -webkit-text-stroke-width: 5px;
     -webkit-text-stroke-color: black;
@@ -30,7 +31,8 @@ canvas {
     top: 90%;
     left: 50%;
     transform: translate(-50%, -50%);
-    font-size: 175px;
+    font-size: 100px;
+    font-size: 10vw;
     font-family: impact;
     color: white;
     -webkit-text-stroke-width: 5px;
