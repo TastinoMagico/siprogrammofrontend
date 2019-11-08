@@ -83,4 +83,7 @@ function main() {
     }
     requestAnimationFrame(render);
 }
-main();
+
+window.addEventListener('load', function () {
+    main();
+});

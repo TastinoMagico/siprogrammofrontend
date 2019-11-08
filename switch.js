@@ -24,4 +24,7 @@ function switcher() {
     }
 }
 
-main();
+window.addEventListener('load', function () {
+    main();
+});
+
