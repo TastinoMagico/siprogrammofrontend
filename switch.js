@@ -2,10 +2,11 @@ let state;
 
 function main() {
     const tempo = setInterval(switcher, 50);
-    document.getElementById("toptext").style.webkitTextStrokeColor = "white";
 }
 
 function switcher() {
+    document.getElementById("toptext").style.opacity = "100";
+    document.getElementById("bottomtext").style.opacity = "100";
     if (state == false) {
         state = true;
         document.getElementById("toptext").style.webkitTextStrokeColor = "black";

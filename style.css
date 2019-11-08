@@ -25,6 +25,7 @@ canvas {
     color: white;
     -webkit-text-stroke-width: 5px;
     -webkit-text-stroke-color: black;
+    opacity: 0;
 }
 #bottomtext{
     position: fixed;
@@ -37,4 +38,5 @@ canvas {
     color: white;
     -webkit-text-stroke-width: 5px;
     -webkit-text-stroke-color: black;
+    opacity: 0;
 }
